@@ -121,7 +121,7 @@ nav a{
     margin: 0 auto;  
     max-width: 1900px;
     background-color: #f7f7f7;
-    height: 450px;
+    height: 448px;
 }
 
 .note-content{
@@ -191,8 +191,63 @@ nav a{
     line-height: 20px;
     padding-top: 16px;
     color: #627382;
-    /* padding-bottom: 22px; */
 }
 
+#brain{
+    padding: 120px;
+    max-width: 1900px;
+    height: 840px;
+}
+
+.brain-content{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.brain-text{
+    margin-top: 102px;
+    margin-bottom:102px ;
+}
+
+.brain-text h6{
+    font-size: 16px;
+    color: #30B868;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.brain-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    font-style: Bold;
+    margin-bottom: 16px;
+}
+
+.brain-text p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.brain-text li{
+    list-style: none;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    background-image: url(./images/CheckCircle.png);
+    background-repeat: no-repeat;
+}
+
+.brain-text img{
+    width: 20px;
+    height: 20px;
+    margin-right:6px;
+}
 
 
