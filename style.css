@@ -10,7 +10,6 @@
 
 nav{
     max-width: 1920px;
-    width: 100;
     display: flex;
     justify-content: space-around;
     margin: 16px 120px;
@@ -46,7 +45,7 @@ nav a{
 
 .banner-content{
     text-align: center;
-    max-width: 1600;
+    max-width: 1900px;
     margin: 0 auto;
 }
 
@@ -63,7 +62,7 @@ nav a{
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin-top: 16px;   
+    margin-top: 16px; 
 }
 
 .btn{
@@ -112,6 +111,87 @@ nav a{
 
 .btn:active{
     transform: scale(.96);
+}
+
+#note{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    justify-content: space-between;
+    margin: 0 auto;  
+    max-width: 1900px;
+    background-color: #f7f7f7;
+    height: 450px;
+}
+
+.note-content{
+    text-align: center;
+    margin: 0 auto;
+    height: 152px;
+    padding: 40px;
+}
+
+
+
+#note img{
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 14px 13px;
+    max-width:60px;
+}
+
+.note-content h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    padding-bottom: 16px
+}
+
+.note-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+
+}
+
+.note-cards{
+    display: flex;
+    align-items:center;
+    gap: 24px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.card-content{
+    border: 20% solid black;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0PX rgba(0, 0, 0, 0.06) ;
+    width: 320px;
+    height: 300px;
+    background-color: #FFFFFF;
+}
+
+.card-content:hover{
+    background-color:aliceblue;
+}
+
+.card-content h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    padding-top: 16px;
+}
+
+.card-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 16px;
+    color: #627382;
+    /* padding-bottom: 22px; */
 }
 
 
